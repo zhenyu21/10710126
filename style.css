@@ -1,0 +1,121 @@
+body {
+    font-size: 14px;
+    background: #ccc;
+}
+  
+.wrap {
+    background: #fff;
+    width: 1000px;
+    margin: 60px auto;
+    padding: 40px;
+    box-sizing: border-box;
+}
+  
+  
+  /* header */
+  
+.header {
+    background-image: url("../images/header.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+
+.header .pic {
+    flex: 1;
+    height: 340px;
+}
+  
+.header .info {
+    flex: 1;
+    margin: 30px 0px 0px 200px;
+}
+  
+.header .info h1 {
+    font-size: 16px;
+    margin-bottom: 100px;
+}
+
+.mail{
+    margin-top: 10px;
+}
+  
+.header .info p {}
+  
+.header .info .social {
+  
+}
+  
+.header .info .social a {
+  
+}
+  
+.header .info .social a img {
+    width: 60px;
+    height: 60px;
+}
+  
+.header .info .mail {}
+  
+.header .info .mail a {
+    color:cornflowerblue ;
+    text-decoration:none;
+}
+  
+.header .info .phone {}
+  
+  
+  /* software */
+  
+.software {
+    padding: 10px;
+    line-height: 30px;
+}
+.stars span{
+    color: gold;
+} 
+.software{
+    display: flex;
+    flex-direction: row;
+}
+.software .skills{
+    flex:.3;
+}
+.software .stars{
+    flex:1.7;
+}
+.stars{
+    display: flex;
+    flex-direction: column;
+}
+  /* experience */
+  
+.experience {
+    margin-top: -20px;
+    padding: 10px;
+    line-height: 30px;
+}
+  
+  /* work  */
+  
+.work {
+    overflow: hidden;
+}
+  
+.work .pic {
+    width: 280px;
+    height: 200px;
+    float: left;
+    margin-right: 12px;
+    margin-left: 12px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+  
+.work .pic img {
+    width: 280px;
+    height: 200px;
+}
+  
